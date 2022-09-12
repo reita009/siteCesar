@@ -43,5 +43,13 @@ export const Container = styled.header`
             cursor: pointer;
             transition: 0.6s ease-in;
         }
+
+    
     }
+
+    @media (max-width: 970px){
+            .nav-desk{
+                display: none;
+            }
+        }
 `;

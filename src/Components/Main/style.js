@@ -14,11 +14,11 @@ export const Container = styled.main`
         margin-left: auto;
         margin-right: auto;
         display: flex;
-
+        
     }
 
     .wrap .left{
-        height: 50%;
+        height: 100%;
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -59,7 +59,7 @@ export const Container = styled.main`
 
 
     .wrap .right{
-        height: 50%;
+        height: 100%;
         width: 50%;
         padding: 3;
     }
@@ -139,8 +139,6 @@ export const Container = styled.main`
                 .card-footer{
                     height: 120px;
                     width: 200px;
-                    margin-right: 30px;
-                    margin-left: 30px;
                     display: flex;
                     flex-direction: column;
 
@@ -162,5 +160,66 @@ export const Container = styled.main`
                     }
                 }
 
+        }
+
+        @media (max-width: 1390px){
+           .wrap{
+            flex-direction: column;
+            height: 1000px;
+            margin-left: auto;
+            margin-right:auto;
+           }
+           .left{
+            margin-bottom: 20px;
+           }
+           .right{
+            margin-top: 30px;
+            margin-bottom: 30px;
+           }
+           .wrap .left{
+            width: 90%;
+           }
+
+
+
+           height: 1500px;
+           
+        }
+        @media (max-width:942px){
+            .wrap-footer{
+                width: 100%;
+                margin-top: 200px;
+            }
+            .card-footer{
+                height: 90px;
+            }
+        }
+        @media (max-width:525px){
+            .wrap-footer{
+                width: 100%;
+                margin-top: 200px;
+                flex-direction: column;
+            }
+            .card-footer{
+                margin: auto;
+            }
+            
+
+            height: 2000px;
+        }
+        @media (max-width:500px){
+            
+            .wrap .left .body-left h1{
+                font-size:30px;
+            }
+            .wrap .right .card{
+                width: 300px;
+            }
+            .wrap .left{
+                width: 110%;
+            }
+            .wrap-footer{
+                margin-top: 100px;
+            }
         }
 `;

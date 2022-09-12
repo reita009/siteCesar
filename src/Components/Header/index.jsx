@@ -10,7 +10,7 @@ export const Header = () =>{
                 <div className="logo">
                     <img src={ Logo } alt="" />
                 </div>
-                <nav>
+                <nav className="nav-desk">
                     <ul>
                         <li>Sobre English With Dice</li>
                         <li>Trilhas</li>
