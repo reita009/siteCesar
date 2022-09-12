@@ -75,7 +75,7 @@ export const Container = styled.main`
         flex-direction: column;
 
         .card-header{
-            height: 100px;
+             height: 100px;
             width: 100px;
             margin-right: auto;
             margin-left: auto;
