@@ -3,7 +3,7 @@ import Logo from "../../assets/logo.jpeg";
 import { Basic } from "../Basic";
 import { Intermediary } from "../intermediary";
 
-import { useState } from "react";
+import {useState} from "react";
 
 export const SectionTwo = () =>{
 
